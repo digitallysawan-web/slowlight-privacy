@@ -32,11 +32,12 @@
 <p><strong>Android backup:</strong> if backup is turned on for your phone, Android may copy your choices and Settings to <em>your own</em> Google account, so they return on a new phone. The puzzle in progress is never backed up. This backup is run by Google under Google's privacy policy; we cannot see it.</p>
 
 <h2>What we do not collect</h2>
-<p>Slowlight does not collect your name, email address, contacts, location, photos, files, device identifiers or advertising ID. It contains no advertising, analytics or crash-reporting software. The app itself has no internet access.</p>
+<p>Slowlight does not collect your name, email address, contacts, location, photos, files, device identifiers or advertising ID. It contains no advertising, analytics or crash-reporting software. Slowlight's own code never connects to the internet.</p>
 
 <h2>Google Play</h2>
 <ul>
   <li><strong>Purchases:</strong> Slowlight Premium is an optional one-time purchase sold through Google Play. Google handles the payment. Slowlight asks the Google Play app on your phone whether your account owns Premium; it never sees your card, UPI or bank details. Google shares with us the standard order details it gives every developer (such as the order number, product, date and country), which we use only for refunds and support.</li>
+  <li><strong>Google Play Billing Library:</strong> the purchase feature uses Google's Play Billing Library, which is built into the app. It has internet access and may send Google technical diagnostic information about purchase requests (for example, whether a request succeeded). We do not receive this information.</li>
   <li><strong>Crash reports:</strong> if you have agreed to share usage and diagnostics with Google on your phone, Android may send Google anonymous crash and performance reports, which Google shows us in summary. We cannot link them to you.</li>
 </ul>
 <p>Google's handling of this data is described in the <a href="https://policies.google.com/privacy">Google privacy policy</a>.</p>
@@ -45,7 +46,7 @@
 <p>Slowlight asks you for one permission, and only if you turn on the optional bedtime reminder: <strong>notifications</strong> (Android 13 and later). Android also lists permissions that are granted without asking:</p>
 <ul>
   <li><strong>Run in the background and keep the device awake</strong>, so the sound you chose keeps playing after the screen turns off, with a notification to pause or stop it.</li>
-  <li><strong>Google Play billing</strong>, for the optional Premium purchase.</li>
+  <li><strong>Google Play billing and internet access</strong>, used only by Google's Play Billing Library for the optional Premium purchase.</li>
   <li><strong>Run at startup</strong>, only to set the bedtime reminder again after the phone restarts.</li>
 </ul>
 <p>None of these is used to collect personal data.</p>
